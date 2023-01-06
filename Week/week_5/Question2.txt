@@ -1,0 +1,8 @@
+
+BRIEF QUESTIONS:
+
+i)If 'A','B','C' and 'D' are placed in the stack and deleted one at a time the last one which was inserted would
+be deleted first.
+So the order of the REMOVAL would be 'D','C','B' and 'A'.
+
+ii)The top of the stack would contain 'D' since it was lastly inserted.

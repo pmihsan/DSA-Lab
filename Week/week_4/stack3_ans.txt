@@ -1,0 +1,14 @@
+
+Question 3:
+
+  Answer:
+
+    C)The plate which was inserted last will be taken out first 
+since Stack follows (last in First out) LIFO Mechanism.Here in this case the 
+plate which is last inserted ie.,(23) is taken out first.
+
+    D)Since stack follows LIFO the dinner plated which was inserted first will
+be taken out last.Here the plate which was inserted first is 4 and that plate
+would be taken out last.
+
+

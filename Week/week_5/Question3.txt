@@ -1,0 +1,24 @@
+
+BRIEF QUESTIONS:
+
+i)Postfix Expression: 2 3 4 5 + * - 2
+       The postfix or prefix expression should contain 1 operand greater than the operator.But in this expression there are 5 operands and 
+3 operators.So this is not a valid postfix expression.The maximum difference between the operators and operands should be one but here it is
+5 - 3 = 2 Which is greater than 1.
+
+ii)The maximum difference between number of operators and operands is 1(For any prefix or postfix expression).
+
+iii)Postfix expression is simple to execute when compared to the infix expression as it requires more operation to execute.
+Advantages of postfix expression:
+  *It is covenient for evaluating formulas on computer with stacks.
+  *Postfix Exprsssion doesnot has the operator precedence and associativity.
+  *They are easy to evaluate. 
+
+iv)Prefix and postfix expression do not require parenthesis.Parenthesis is not required because the order of the operators in the postfix /prefix 
+expressions determines the actual order of operations in evaluating the expression
+
+v) Prefix Expression : + * - 2 3 4 5
+                       + * 1 4 5
+                       + 4 5
+                       9
+The output of the given prefix expression is 9.

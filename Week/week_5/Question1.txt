@@ -1,0 +1,14 @@
+
+
+BRIEF QUESTIONS:
+
+i)For deleting a node at the begining of the list we take a sample pointer and
+point it to head and move the head pointer to the next node and we free the sample
+pointer.Thus there is only one modification in the linked list to delete the first node.
+
+ii)For inserting a node in the middle of list first we would find its previous node and 
+we have a sample pointer to put the address the previous node pointing to next  and we would
+make the previous node to point to the new node and the next of the new node to where the sample 
+pointer points.Thus here we are making two modification in the list to insert a node at the middle.
+
+

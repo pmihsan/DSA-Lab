@@ -1,0 +1,63 @@
+
+Exercise 1
+
+1)The root is the topmost node in the tree.Here node 1 is the root node.
+The nodes which have parent but no children is known as the leaf node.Here the nodes 8,9,10,11,13 and 14 are the leaf nodes.
+
+2)The height of a binary tree is the height of the root node in the whole binary tree.That is the height of a binary tree is equal to the largest     number of the edges from the root to the most distant leaf node.Here the maxdistant of the leaf node from the root is 3. So height of the tree is 3.
+
+3)
+a)Pre Order : 1 2 4 8 9 5 10 11 3 6 13 7 14 
+
+b)Post Order : 8 9 4 10 11 5 2 13 6 14 7 3 1
+
+c)In Order : 8 4 9 2 10 5 11 1 6 13 3 14 7
+
+4)For all the nodes
+
+a)For node 2 and 3 parent node is 1
+For node 4 and 5 parent node is 2
+For node 6 and 7 parent node is 3
+For node 8 and 9 parent node is 4
+For node 10 and 11 parent node is 5
+For node 13 parent node is 6
+For node 14 parent node is 7
+
+b)For node 1 => node 2 and node 3 are the children
+For node 2 => node 4 and node 5 are the children
+For node 3 => node 6 and node 7 are the children
+For node 4 => node 8 and node 9 are the children
+For node 5 => node 10 and node 11 are the children
+For node 6 => node 13 is the children
+For node 7 => node 14 is the children
+
+c)Siblings are from the same parent
+For node 2 => node 3 is a sibling
+For node 4 => node 5 is a sibling
+For node 6 => node 7 is a sibling
+For node 8 => node 9 is a sibling
+For node 10 => node 11 is a sibling
+
+d)Height ,Depth, Size(Number of nodes in the subtree)
+
+HEIGHT:
+Height of the tree = 3
+Height of the subtree with root node 2,3 = 2
+Height of the subtree with root node 4,5,6,7 = 1
+Height of the leaf node  = 0
+
+DEPTH:
+Depth of the tree from root node 1 = 0
+Depth of the tree from root node to node 2,3 = 1
+Depth of the tree from root node to node 4,5,6,7 = 2 
+Depth of the tree from root node to node 8,9,10,11,13,14 = 3 
+
+Size: (Number of Node)
+From node 1 = 13
+From node 2 = 7
+From node 3 = 5
+From node 4,5 = 3
+From node 6,7 = 2
+From node 8,9,11,11,13,14 = 1
+
+
